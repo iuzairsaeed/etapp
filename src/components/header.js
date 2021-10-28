@@ -10,7 +10,7 @@ import {
   Image,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Entypo';
-import logo from '../assets/images/ET.png'
+import logo from '../assets/images/ET.png';
 const Headers = ({props, navigation}) => {
   const {StatusBarManager} = NativeModules;
 
@@ -31,7 +31,10 @@ const Headers = ({props, navigation}) => {
         </TouchableOpacity>
       </View>
       <View style={{flexDirection: 'row', marginTop: -15}}>
-      <Image source={logo} style={{width: 30, height: 30, marginRight:-10}} />
+        <Image
+          source={logo}
+          style={{width: 30, height: 30, marginRight: -10}}
+        />
         {/* <Text style={styles.mainHead}>ET</Text> */}
       </View>
       <View></View>
@@ -41,12 +44,12 @@ const Headers = ({props, navigation}) => {
 
 const styles = StyleSheet.create({
   mainView: {
-    height:25,
+    height: 25,
     // paddingTop: 10,
     backgroundColor: 'white',
     flexDirection: 'row',
     justifyContent: 'space-around',
-    marginTop: Platform.OS=='ios'?20: 30
+    marginTop: Platform.OS == 'ios' ? 20 : 30,
   },
   menuIcon: {marginLeft: -50, marginTop: -20},
   menuIcons: {width: 40, height: 50},
