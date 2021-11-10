@@ -21,6 +21,7 @@ import maninblack from '../assets/images/maninblack.jpeg';
 import persons from '../assets/images/person.png';
 import CardDetail from '../components/cardDetail';
 import CommentBox from '../components/commentBox';
+
 const Home = ({navigation}) => {
   console.log(Dimensions.get('window').width, 'asdas');
   const [cardInd, setCardInd] = useState([
@@ -31,31 +32,31 @@ const Home = ({navigation}) => {
       txt: `Are you concerned about the high-priced transportation of your goods? Are you looking for the most affordable way to transport your goods? If yes, then you've landed at the perfect place. Import and Export Terminal Inc. offers high-end ocean freight management solutions to cater to your shipment needs with ease. Whether you want to import and export your products, we ensure that timely delivery is done because we can understand the value of time. With years of experience and vast knowledge, our professionals make sure to not only transport your goods but also navigate the ins and outs of routes, extensive consultation, and stress-free documentation. Connect your business globally with us as we create value for your assets.`,
     },
     {
-      side: false,
+      side: true,
       head: 'Air Freight',
       img: airport,
       txt: `Want to transport huge volumes of goods to long distances in the fastest way, without worrying about the high cost of transportation? Import and Export Terminal Inc. here is at your service. We at Import and Export Terminal Inc. commit to providing comprehensive services to ensure safe and reliable delivery of your products. We understand that time is money for you. Therefore, our dedicated team of specialists combines their expertise in-ground services and integrated air networks to make sure your supplies must arrive in perfect condition and on time. Our superior expedited delivery services unlock the competitive advantage through its long-term relationship in this industry, business longevity, and extensive network of vehicles and airlines partners. From the moment you book us until your shipment reaches its destination, we cater to your all needs ensuring superior customer service.`,
     },
     {
-      side: false,
+      side: true,
       head: 'Barrel Shipping',
       img: barrel,
       txt: `If you wish to transport your goods most conveniently regardless of the size and type of goods, then this might be the best choice for you. Barrel shipping has now become one of the most common means of transporting luggage due to secure and water and dustproof protection. With a wide range of barrels with varying capacities, our team allows you to transport your goods with no limitation of quantity in the safest manner. We have always prioritized customer service because we acknowledge the worth of customers for the businesses. With our outstanding customer service, our experienced team is always available to guide you through the whole process.  Our professionals will assist you to choose suitable barrels for your products along with an order tracking facility so that you can always be updated about the destination of your barrel. Choose our tailor-made packages today and transport your heavy luggage with the best rates and around-the-clock support from our experts.`,
     },
     {
-      side: false,
+      side: true,
       head: 'Container Shipping',
       img: hamburg,
       txt: `In this competitive world of business, container shipping is the backbone of the global economy as more than a billion tons of cargo are carried through containers annually.  We prioritize the business requirements of our client, which helps us to control your every consignment with our extensive expertise in this industry. Our team thrives to exceed your expectations by facilitating you with fully integrated solutions, navigation, planning, efficient fuel use, reporting, and maintenance systems.  So what are you waiting for? Get a quote from us right now and boost your business to new growth levels.`,
     },
     {
-      side: false,
+      side: true,
       head: 'Roll-on/Roll-off',
       img: freighter,
       txt: `Oversea shipping of vehicles and heavy equipment has never been easier as we are specialized in huge floating parking platforms to carry your oversized cargo. From the moment the vehicle is handed over to us to the moment, it reaches its destination, we provide unparalleled services to ensure your peace of mind. Import and Export Terminal Inc. has extensive knowledge and experience in shipping every kind of vehicle with great efficiency and security. Therefore, tighten your seatbelts and get ready to grab the best possible services now. We would love to be your source for vehicle shipping experience.`,
     },
     {
-      side: false,
+      side: true,
       head: 'Package Delivery',
       img: packages,
       txt: `Do you have a smaller package to ship fast? Let us be at your service. Being full-fledged shipping and logistic firm, we promise to deliver your packages in the fastest and safest way. Long established relationships in the cross trading industry enable us to handle your all packages and parcels efficiently and smoothly. Our professionals at Import and Export Terminal Inc. ensure that your products are packed properly for handling and transportation at competitive rates. Consult us for delivering your parcels with complete safety.`,
