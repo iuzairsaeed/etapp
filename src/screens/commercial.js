@@ -19,6 +19,63 @@
   // export default Commercial;
 
 
+<<<<<<< Updated upstream
+=======
+          <CardDetail
+            side={cardSide}
+            head="Commercial Cargo"
+            img={container}
+            txt="Export and Import Terminal Inc. guarantees to give the high-end commercial cargo services with having all custom clearance. When it comes to commercial cargo service, our logistics experts can assist you with custom compliance, export restriction control, and risks. Our flexible spectrum of services includes picking up your goods from the origin and deliver it to the designated destination. Whatever you want to transport to a new location, let us formulate a seamless service delivery experience for you. "
+            onchange={() => setCardSide(!cardSide)}
+            noOfLines={5}
+          />
+          <Text
+            style={{
+              fontSize: 22,
+              fontWeight: 'bold',
+              textAlign: 'center',
+              marginTop: 50,
+              marginBottom: 20,
+            }}>
+            West African Destination Info
+          </Text>
+          <Text
+            style={{
+              fontSize: 16,
+              color: 'gray',
+              textAlign: 'center',
+              marginVertical: 5,
+            }}>
+            Transit Time : 6 – 8 Weeks
+          </Text>
+          <Text
+            style={{
+              fontSize: 16,
+              color: 'gray',
+              textAlign: 'center',
+              marginVertical: 5,
+            }}>
+            Container Size: 20″ and 40″
+          </Text>
+          <Text
+            style={{
+              fontSize: 16,
+              color: 'gray',
+              textAlign: 'center',
+              marginVertical: 5,
+            }}>
+            Goods must be properly blocked and braced
+          </Text>
+          <Text
+            style={{
+              fontSize: 16,
+              color: 'gray',
+              textAlign: 'center',
+              marginVertical: 5,
+            }}>
+            Cargo Required
+          </Text>
+>>>>>>> Stashed changes
 
 import { View, Text,Button,SafeAreaView,ScrollView,Image,Dimensions,TouchableOpacity } from 'react-native';
 import React,{useState} from 'react';

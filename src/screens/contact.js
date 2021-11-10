@@ -5,9 +5,16 @@ import imgOne from '../assets/images/map.jpeg'
 import pin from '../assets/images/pin.png'
 import Icon from 'react-native-vector-icons/Entypo';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+<<<<<<< Updated upstream
 import { Textarea } from 'native-base'
 const Contact = ({ navigation }) => {
   let widthScreen = Dimensions.get('window').width
+=======
+import {Textarea} from 'native-base';
+
+const Contact = ({navigation}) => {
+  let widthScreen = Dimensions.get('window').width;
+>>>>>>> Stashed changes
   const [contactData, setContactData] = useState({
     name: '',
     phone: '', email: '', subject: '', message: ''
@@ -57,8 +64,13 @@ const Contact = ({ navigation }) => {
         })
 
     }
+<<<<<<< Updated upstream
   }
   console.log(contactData, 'contactData')
+=======
+  };
+  // console.log(contactData, 'contactData');
+>>>>>>> Stashed changes
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: 'white' }}>
@@ -69,7 +81,22 @@ const Contact = ({ navigation }) => {
           <View style={{ width: '90%', marginLeft: '5%' }}>
 
             {/* Address Box */}
+<<<<<<< Updated upstream
             <View style={{ flexDirection: 'row', marginTop: 30 }}>
+=======
+            <Text
+              style={{
+                width: widthScreen - 20,
+                color: '#ea6618',
+                fontWeight: 'bold',
+                fontSize: 16,
+                marginTop: 20,
+              }}>
+              Get in touch with us. We’ll be happier to assist you in fulfilling
+              your shipment needs without any compromise to quality.{' '}
+            </Text>
+            <View style={{flexDirection: 'row', marginTop: 30}}>
+>>>>>>> Stashed changes
               {/* <Image source={pin} style={{width:30,height:30}}/> */}
               <Icon
                 name={'address'}
