@@ -22,7 +22,7 @@
 //   side={cardSide}
 //   head="Commercial Cargo"
 //   img={container}
-//   txt="Export and Import Terminal Inc. guarantees to give the high-end commercial cargo services with having all custom clearance. When it comes to commercial cargo service, our logistics experts can assist you with custom compliance, export restriction control, and risks. Our flexible spectrum of services includes picking up your goods from the origin and deliver it to the designated destination. Whatever you want to transport to a new location, let us formulate a seamless service delivery experience for you. "
+//   txt="Import and Export Terminal Inc. guarantees to give the high-end commercial cargo services with having all custom clearance. When it comes to commercial cargo service, our logistics experts can assist you with custom compliance, export restriction control, and risks. Our flexible spectrum of services includes picking up your goods from the origin and deliver it to the designated destination. Whatever you want to transport to a new location, let us formulate a seamless service delivery experience for you. "
 //   onchange={() => setCardSide(!cardSide)}
 //   noOfLines={5}
 // />
@@ -117,7 +117,7 @@ const Commercial = ({navigation}) => {
             side={cardSide}
             head="Commercial Cargo"
             img={container}
-            txt="Export and Import Terminal Inc. guarantees to give the high-end commercial cargo services with having all custom clearance. When it comes to commercial cargo service, our logistics experts can assist you with custom compliance, export restriction control, and risks. Our flexible spectrum of services includes picking up your goods from the origin and deliver it to the designated destination. Whatever you want to transport to a new location, let us formulate a seamless service delivery experience for you. "
+            txt="Import and Export Terminal Inc. guarantees to give the high-end commercial cargo services with having all custom clearance. When it comes to commercial cargo service, our logistics experts can assist you with custom compliance, export restriction control, and risks. Our flexible spectrum of services includes picking up your goods from the origin and deliver it to the designated destination. Whatever you want to transport to a new location, let us formulate a seamless service delivery experience for you. "
             onchange={() => setCardSide(!cardSide)}
             noOfLines={5}
           />
