@@ -1,5 +1,4 @@
-
-import React ,{useEffect}from 'react';
+import React, {useEffect} from 'react';
 
 import {
   SafeAreaView,
@@ -12,16 +11,12 @@ import {
 } from 'react-native';
 import MainNav from './src/config/navigation';
 import 'react-native-gesture-handler';
-import SplashScreen from 'react-native-splash-screen'
-const App= () => {
+import SplashScreen from 'react-native-splash-screen';
+const App = () => {
   useEffect(() => {
     SplashScreen.hide();
   }, []);
-  return (
-   
-<MainNav />
-
-  );
+  return <MainNav />;
 };
 
 const styles = StyleSheet.create({
