@@ -1,4 +1,4 @@
-package com.etapp;
+package com.importexportterminalinc;
 
 import com.facebook.react.ReactActivity;
 import org.devio.rn.splashscreen.SplashScreen;

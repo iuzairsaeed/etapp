@@ -1,4 +1,4 @@
-package com.etapp;
+package com.importexportterminalinc;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
